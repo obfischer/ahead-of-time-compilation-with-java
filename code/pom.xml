@@ -34,5 +34,6 @@
 
   <modules>
     <module>helloworld</module>
+    <module>dropwizard</module>
   </modules>
 </project>
