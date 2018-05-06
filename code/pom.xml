@@ -12,14 +12,22 @@
   <packaging>pom</packaging>
 
   <build>
-    <defaultGoal>install</defaultGoal>
+    <defaultGoal>clean install</defaultGoal>
     <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
         <configuration>
-          <source>1.9</source>
-          <target>1.9</target>
+          <release>10</release>
+          <source>1.10</source>
+          <target>1.10</target>
         </configuration>
+        <dependencies>
+          <dependency>
+            <groupId>org.ow2.asm</groupId>
+            <artifactId>asm</artifactId>
+            <version>6.1.1</version> <!-- Use newer version of ASM -->
+          </dependency>
+        </dependencies>
       </plugin>
     </plugins>
   </build>
