@@ -36,6 +36,7 @@
   </build>
 
   <modules>
+    <module>filereader</module>
     <module>helloworld</module>
     <module>dropwizard</module>
   </modules>
