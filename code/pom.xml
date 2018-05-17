@@ -39,5 +39,6 @@
     <module>filereader</module>
     <module>helloworld</module>
     <module>dropwizard</module>
+    <module>minimal</module>
   </modules>
 </project>
